@@ -1,0 +1,12 @@
+.banner {
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #ebebebfa;
+}
+
+.banner__image {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
+    z-index: -1;
+    margin-bottom: -150px;
+}

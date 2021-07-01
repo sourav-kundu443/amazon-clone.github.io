@@ -1,0 +1,198 @@
+.productDetails__parent {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.productDetails__imageSection {
+    width: 29%;
+
+}
+.productDetails__descriptionSection {
+    width: 35%;
+    padding: 3% 5%;
+    font-family: sans-serif;
+}
+
+.productTitle {
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+.productRating {
+    padding: 2% 0;
+}
+
+.price {
+    padding: 2% 0 4% 6%;
+}
+
+.productPrice {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productDiscountedPrice {
+    padding-top: 2%;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.productDiscountedPrice .discountValue {
+    color: #d60505;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.productInfo {
+    padding: 2%;
+    margin: 0 auto;
+}
+
+.productBrand .productBrandText {
+    font-size: 14px;
+    padding-top: 3%;
+}
+
+.productDescriptionText {
+    padding-top: 2%;
+}
+.productDetails__cartSection {
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+}
+
+.socialMediaIcon {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 30%;
+    padding-bottom: 3%;
+    text-decoration: none;
+}
+
+.socialMediaIcon .shareText {
+    color: #1574ce;
+    font-weight: 600;
+}
+.socialMediaIcon .emailIcon {
+    color: #696969;
+}
+.socialMediaIcon .facebookIcon {
+    color: #176fc2;
+}
+.socialMediaIcon .twitterIcon {
+    color: #16bbd1;
+}
+.socialMediaIcon .pinterestIcon {
+    color: #e91818;
+}
+
+.rightCard {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+}
+
+.rightCard > p {
+    margin: 5% 0 5% 10%;
+}
+
+select {
+    margin-left: 3%;
+}
+
+.innerCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    padding: 2px 80px 2px 2px;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+}
+
+.cartButton {
+    background-image: linear-gradient(#f1d58b, #f0c14b);
+}
+
+.buyNowButton {
+    background-image: linear-gradient(#f0c14b, #db8e19);
+}
+.btnIcons {
+    background-color: #111111;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 20px !important;
+    padding: 3px;
+}
+
+.cardLinks {
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    text-decoration: none;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.linksIcons {
+    color: #929292;
+    margin-right: 5px;
+}
+
+.gift {
+    width: 70%;
+    display: flexbox;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.gift >input {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.wishList {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    border-radius: 3px;
+    background-image: linear-gradient(#ebebeb, #c0c0c0);
+    border: 1.2px solid #adadad;
+    cursor: pointer;
+    outline: none;
+    transition: 0.5s ease;
+}
+
+.wishList:hover {
+    background-image: linear-gradient(#ececec, #dadada);
+}
+
+.horizontalLine {
+    margin: 0 10%;
+}

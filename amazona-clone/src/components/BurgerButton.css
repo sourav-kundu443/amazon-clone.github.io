@@ -1,0 +1,17 @@
+.burgerButton {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.burgerButton > div{
+    background-color: #d7dbdb;
+    padding: 2.5px 13px;
+    margin-top: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.lock-scroll {
+    overflow: hidden;
+}

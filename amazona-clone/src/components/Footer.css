@@ -1,0 +1,153 @@
+.footer__backToTopButton {
+    background-color: #2c3747;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.footer__whole {
+    background-color: #24303d;
+}
+
+.footer__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.footer__sections {
+    margin-top: 5px;
+}
+
+.footer__headingOne {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.footer__paragraph {
+    color: #c1c7d3;
+    text-decoration: none;
+}
+
+.footer__paragraph > p {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.footer__paragraph > p:hover {
+    color: #ffffff;
+}
+
+.footer__countryList {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #c1c7d3;
+    font-size: 12px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+
+.country {
+    cursor: pointer;
+}
+
+.country:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer__logoAndButton {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.language__button {
+    margin: 30px;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: transparent;
+    border: 1px solid #666e79;
+    border-radius: 5px;
+    color: #c5ccd6;
+    cursor: pointer;
+}
+.footer__lowerContainer {
+    background-color: #131921;
+}
+
+.footer__lowerContainerTexts {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.footer__lowerContainerSection .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.bold {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.bold:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.small:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer__footer {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    color: #c1c7d3;
+}
+
+.footer__downLink {
+    text-decoration: none;
+    color: #c1c7d3;
+    font-size: 14px;
+}
+
+.footer__downLink > span:hover {
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer__footer {
+    padding-bottom: 10px;
+    
+}
+.footer__footer > p {
+    color: #5f5f5f;
+    font-size: 13px;
+}
